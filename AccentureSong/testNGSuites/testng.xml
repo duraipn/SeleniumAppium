@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="DemoSuite" allow-return-values="true" parallel="none">
+
+  <listeners>
+    <listener class-name="Accenture.HSBC_Meadows.TestUtils.Listeners"/>
+  </listeners>
+
+  <test name="Demo" preserve-order="true" enabled="true">
+    <classes>
+      <class name="Accenture.HSBC_Meadows.runner.RunnerTestNG"/>
+    </classes>
+  </test>
+
+</suite>
